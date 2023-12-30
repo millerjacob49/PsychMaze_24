@@ -1,0 +1,23 @@
+Header 
+, Condition: ,FullMap
+,SubjectNumber: kjhkj
+,Time Started: 12-30_14-55-04
+***** 
+1, practice, 0,0,0
+1, practice, 500,0,0
+1, practice, 1000,0,0
+1, practice, 1500,0,0
+1, practice, 2000,0,0
+1, practice, 2500,0,0
+1, practice, 3000,0,0
+1, practice, 3500,0,0
+1, practice, 4000,0.2777442,1.381994
+1, practice, 4500,0.8637779,3.299774
+1, practice, 5000,1.742414,5.062418
+1, experiment, 0,1.754769,5.073997
+1, experiment, 500,0.003696604,0.05677132
+1, experiment, 1000,0.04940465,1.850405
+1, experiment, 1500,0.7376909,3.608226
+1, experiment, 2000,1.020461,5.594614
+1, experiment, 2500,1.28921,7.20323
+1, experiment, 3000,1.318698,8.888937

@@ -1,0 +1,28 @@
+Header 
+, Condition: ,MiniMap
+,SubjectNumber: 
+,Time Started: 12-30_13-25-20
+***** 
+Header 
+, Condition: ,MiniMap
+,SubjectNumber: 
+,Time Started: 12-30_13-41-04
+***** 
+1, practice, 0,0,0
+1, practice, 500,0.01220144,0.06263293
+1, practice, 1000,0.1575882,1.86841
+1, practice, 1500,0.2269758,2.755046
+1, practice, 2000,0.3364226,3.872235
+1, practice, 2500,0.7923175,5.818982
+1, practice, 3000,0.7846449,7.809317
+1, experiment, 0,0.6514034,9.73807
+1, experiment, 500,0.00645855,0.0706596
+1, experiment, 1000,0.05593966,1.880221
+1, experiment, 1500,-0.06102083,3.716894
+1, experiment, 2000,-0.06102083,3.716894
+1, experiment, 2500,-0.06102083,3.716894
+1, experiment, 3000,-0.06102083,3.716894
+1, experiment, 3500,-0.06102083,3.716894
+1, experiment, 4000,-0.06102083,3.716894
+1, experiment, 4500,-0.06102083,3.716894
+1, experiment, 5000,-0.06102083,3.716894

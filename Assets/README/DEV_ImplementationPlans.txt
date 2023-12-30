@@ -1,0 +1,8 @@
+Step 1: Ensure proper timing & CSV output			- Timer finished & accurate
+-Timer:								-TODO: Map timer start to button press.
+	- Set up 'A' to begin					-TODO: Copy over CSV Dump and test.
+	- Set up plane to end
+-CSV Output Script
+
+Step 2: Menu & Scene Management
+DONE: Main menu implemented, scene switch to game implemented.

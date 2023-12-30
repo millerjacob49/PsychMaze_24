@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using System.IO;
+
+public class PreExperimentalBriefRetrieval : MonoBehaviour
+{
+    string briefText;
+    public string fileName = Application.streamingAssetsPath + "/Input/ExperimentBeginText.txt";
+    public TextMeshProUGUI BriefTextObject;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        if (File.Exists(fileName))
+        {
+            BriefTextObject.text = File.ReadAllText(fileName);
+
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}

@@ -1,0 +1,1 @@
+This is the briefing that will display after the practice run ends and before the experiment run begins.
