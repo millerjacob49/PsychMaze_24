@@ -23,13 +23,17 @@ namespace StarterAssets
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
 
+		/*
 		[Space(10)]
+		*/
 		[Tooltip("The height the player can jump")]
-		public float JumpHeight = 1.2f;
+		public float JumpHeight = 0f;
 		[Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
 		public float Gravity = -15.0f;
 
+		/*
 		[Space(10)]
+		*/
 		[Tooltip("Time required to pass before being able to jump again. Set to 0f to instantly jump again")]
 		public float JumpTimeout = 0.1f;
 		[Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
@@ -268,12 +272,12 @@ namespace StarterAssets
 				// if we are not grounded, do not jump
 				_input.jump = false;
 			}
-
 			// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+			/*
 			if (_verticalVelocity < _terminalVelocity)
 			{
 				_verticalVelocity += Gravity * Time.deltaTime;
-			}
+			}*/
 		}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
