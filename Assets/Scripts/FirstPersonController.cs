@@ -135,7 +135,7 @@ namespace StarterAssets
 		{
 			
 			ABeginsTrial();
-			//JumpAndGravity();
+			JumpAndGravity();
 			GroundedCheck();
 			Move();
 		}
@@ -167,10 +167,10 @@ namespace StarterAssets
 				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
 				// Update Cinemachine camera target pitch
-				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
+				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch*0, 0.0f, 0.0f);
 
 				// rotate the player left and right
-				transform.Rotate(Vector3.up * _rotationVelocity);
+				transform.Rotate(Vector3.up * _rotationVelocity/2);
 			}
 		}
 
@@ -228,7 +228,7 @@ namespace StarterAssets
 			{
 				sceneManagerScript.LoadGameScene();
 				Debug.Log("A pressed, trial begins");
-			}
+            }
 			_input.jump = false;
 		}
 
@@ -277,7 +277,7 @@ namespace StarterAssets
 			if (_verticalVelocity < _terminalVelocity)
 			{
 				_verticalVelocity += Gravity * Time.deltaTime;
-			}*/
+			}*/	
 		}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)

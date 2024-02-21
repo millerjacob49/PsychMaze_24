@@ -1,0 +1,16 @@
+Header 
+, Condition: ,FullMap
+,SubjectNumber: 22
+,Time Started: 01-24_13-09-10
+***** 
+1, practice, 0,0,2.09
+1, practice, 500,0,2.09
+1, practice, 1000,0,2.09
+1, practice, 1500,0,2.09
+1, practice, 2000,0,2.09
+1, practice, 2500,0,2.09
+1, practice, 3000,0.0272736,2.851947
+1, practice, 3500,0.09883014,4.851035
+1, practice, 4000,0.1703297,6.848531
+1, practice, 4500,0.2414401,8.835153
+1, experiment, 0,0.2769702,9.827766

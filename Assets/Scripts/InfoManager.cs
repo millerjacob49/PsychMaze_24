@@ -91,7 +91,8 @@ public class InfoManager : MonoBehaviour
     public void CreateTimeFile()
     {
         //pull subject ID from textbox
-        sessionFileNameTime = "../PsychMaze_V2.0/Assets/AuxFiles/Output/" + IDText + mapSelection + "_TIME.csv";
+        Debug.Log("YO!" + Application.streamingAssetsPath);
+        sessionFileNameTime = Application.streamingAssetsPath +"/" + IDText + mapSelection + "_TIME.csv";
         //sessionFileNameTime = Application.persistentDataPath + sessionFileNameTime + ".csv";
         File.AppendAllText(sessionFileNameTime, "Header \n" + ", Condition: ," + /**/ mapSelection /**/ + "\n" + ",SubjectNumber: " + IDText + "\n" + ",Time Started: " + System.DateTime.Now.ToString("MM-dd_HH-mm-ss") + "\n");
         File.AppendAllText(sessionFileNameTime, "***** \n");
@@ -116,11 +117,13 @@ public class InfoManager : MonoBehaviour
 
     public void CreatePositionFile()
     {
-        sessionFileNamePos = "../PsychMaze_V2.0/Assets/AuxFiles/Output/" + IDText + mapSelection + "_POS.csv";
+        sessionFileNamePos = Application.streamingAssetsPath + "/"  + IDText + mapSelection + "_POS.csv";
         File.AppendAllText(sessionFileNamePos, "Header \n" + ", Condition: ," + /**/ mapSelection /**/ + "\n" + ",SubjectNumber: " + IDText + "\n" + ",Time Started: " + System.DateTime.Now.ToString("MM-dd_HH-mm-ss") + "\n");
         File.AppendAllText(sessionFileNamePos, "***** \n");
+        File.AppendAllText(sessionFileNamePos, "trialNumber,trialType,time(ms),xPos,yPos\n");
     }
 
+    //unused function
     public void LogPositionData()
     {
         Debug.Log("InfoManager dumping position data");
@@ -134,6 +137,7 @@ public class InfoManager : MonoBehaviour
         yPos.Add(player.transform.position.z);
 
         //will want to dump these once plane trigger
+        //Believe these actually dump based on FixedUpdate()
     }
 
     public void WritePositionData()

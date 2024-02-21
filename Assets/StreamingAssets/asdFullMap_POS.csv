@@ -1,0 +1,17 @@
+Header 
+, Condition: ,FullMap
+,SubjectNumber: asd
+,Time Started: 02-08_15-13-50
+***** 
+trialNumber,trialType,time(ms),xPos,yPos
+1, practice, 0,0,0.16
+1, practice, 500,0,0.4682978
+1, practice, 1000,0,1.698863
+1, practice, 1500,0,2.672376
+1, practice, 2000,-0.8130286,3.177286
+1, practice, 2500,-0.3257111,3.012998
+1, practice, 3000,-0.6274719,2.989822
+1, practice, 3500,0.2552909,2.82379
+1, practice, 4000,0.2552909,1.853222
+1, practice, 4500,0.2552909,1.853222
+1, practice, 5000,0.2552909,1.853222

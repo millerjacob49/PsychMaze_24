@@ -404,7 +404,6 @@
 "Assets/Scripts/DropDownHandler.cs"
 "Assets/Scripts/EndGameButtonClick.cs"
 "Assets/Scripts/FirstPersonController.cs"
-"Assets/Scripts/FullMapPlayer.cs"
 "Assets/Scripts/InfoManager.cs"
 "Assets/Scripts/MapHandler.cs"
 "Assets/Scripts/MySceneManager.cs"

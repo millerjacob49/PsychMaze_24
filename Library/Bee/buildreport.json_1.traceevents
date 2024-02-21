@@ -1,0 +1,637 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1708476639458800, "dur": 5081909, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476639459053, "dur": 10688, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476639469744, "dur": 83667, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476639553595, "dur": 3457087, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476643010684, "dur": 1525048, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476644535734, "dur": 4972, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476644548765, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1708476639516127, "dur":2307, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639518448, "dur":1131, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1708476639519680, "dur":117, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1708476639519797, "dur":618, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1708476639520475, "dur":1744, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639522219, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639524757, "dur":197, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639524954, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525019, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525022, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525032, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525035, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525041, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525042, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525048, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525050, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525055, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525057, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525064, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525065, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525073, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525075, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525082, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525083, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639525111, "dur":5374, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708476639521638, "dur":677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476639522316, "dur":2477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476639521463, "dur":804, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476639522268, "dur":2571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476639521971, "dur":405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476639522376, "dur":2461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476639521621, "dur":658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476639522279, "dur":2455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476639521760, "dur":598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476639522358, "dur":2482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476639521904, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476639522368, "dur":2384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476639522137, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476639522387, "dur":2396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476639522252, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476639522253, "dur":2476, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476639533652, "dur":742, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1708476644548983, "dur": 552, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1708476642671768, "dur": 314396, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642674190, "dur": 59053, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642939469, "dur": 26560, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642966034, "dur": 20121, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642967249, "dur": 17521, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642990706, "dur": 1871, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1708476642989876, "dur": 2731, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476644549669, "dur": 403, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1708476643078410, "dur":2685, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476643081109, "dur":741, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1708476643081930, "dur":121, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1708476643082051, "dur":623, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1708476643082729, "dur":997, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476643083726, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495280, "dur":448, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495728, "dur":81, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495809, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495817, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495840, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495843, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495865, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495867, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495880, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495882, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495892, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495894, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495905, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495908, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495917, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495919, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495931, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644495966, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644496028, "dur":5881, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708476643083321, "dur":534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643083856, "dur":4249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643088106, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1708476643088306, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643088410, "dur":20568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1708476643108979, "dur":531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643109514, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1708476643110491, "dur":768, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643111260, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1708476643111652, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643111755, "dur":26552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643138308, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643138510, "dur":91028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643229539, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643229694, "dur":137840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643367535, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643367696, "dur":53399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643421096, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643421220, "dur":51781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643473001, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643473118, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643473286, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643473377, "dur":251821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643725199, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643725389, "dur":112162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643837552, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643837758, "dur":1194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643838952, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643839080, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476643839303, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476643839374, "dur":336560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708476644175935, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708476644176264, "dur":319063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643083205, "dur":586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643083798, "dur":4160, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643087968, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1708476643087971, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643088470, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1708476643088472, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643088574, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1708476643088703, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643088973, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089112, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089190, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089297, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089516, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089644, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089712, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089801, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643089865, "dur":3847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643093712, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643093890, "dur":19444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643113334, "dur":393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643113729, "dur":42552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643156282, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643156546, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643157297, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643157514, "dur":47075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643204590, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643204725, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643204933, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643205039, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643205250, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643205357, "dur":1441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643206798, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643206906, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643207197, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643207276, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643207647, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643207739, "dur":36374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643244114, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643244269, "dur":48290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643292560, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643292715, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Monetization.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643292917, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293020, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293181, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293284, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293443, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293522, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293662, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293743, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293914, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643293995, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643294264, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643294338, "dur":46484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643340823, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643340989, "dur":79662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643420652, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643420818, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643420999, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643421094, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643421249, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643421342, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643421540, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643421715, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422012, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422097, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422228, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422308, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422430, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422506, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422678, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422755, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422907, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643422983, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423112, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423187, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423374, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423452, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423574, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423684, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423839, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643423924, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643424059, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643424137, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643424334, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643424420, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643425154, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643425244, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643425369, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643425445, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1708476643425993, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643426075, "dur":1183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476643427258, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476643427335, "dur":669595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708476644096930, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476644097352, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708476644097491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708476644097496, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708476644098623, "dur":396725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643083274, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643083848, "dur":4212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643088064, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1708476643088306, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643088569, "dur":21972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1708476643110542, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643110767, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643111359, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643111648, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643111823, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643112027, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643112211, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643112295, "dur":63845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643176141, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643176341, "dur":55616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643231957, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643232096, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643232290, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643232368, "dur":68335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643300705, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643300845, "dur":45555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643346400, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643346498, "dur":1389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643347887, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643347999, "dur":49378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643397378, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643397511, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643397824, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643397930, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643398125, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643398221, "dur":69858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476643468080, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476643468347, "dur":550547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708476644018895, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644019056, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1708476644019222, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644019312, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/Input/TimeOutValue.txt" }}
+,{ "pid":12345, "tid":3, "ts":1708476644019960, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644020067, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/Input/MaxTrialCount.txt" }}
+,{ "pid":12345, "tid":3, "ts":1708476644020292, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644020504, "dur":13686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/Input/ExperimentBeginText.txt" }}
+,{ "pid":12345, "tid":3, "ts":1708476644034190, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644034325, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/asdFullMap_TIME.csv" }}
+,{ "pid":12345, "tid":3, "ts":1708476644034417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644034476, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/asdFullMap_TIME.csv" }}
+,{ "pid":12345, "tid":3, "ts":1708476644037136, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/asdFullMap_POS.csv" }}
+,{ "pid":12345, "tid":3, "ts":1708476644037467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644037477, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/asdFullMap_POS.csv" }}
+,{ "pid":12345, "tid":3, "ts":1708476644039891, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644039947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644039953, "dur":16997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644057000, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644057051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644057060, "dur":37692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644094802, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644094862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644094869, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708476644096248, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1708476644096308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708476644096313, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1708476644097887, "dur":397459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643083442, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643083864, "dur":4096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643087967, "dur":57183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1708476643145151, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643145626, "dur":49894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643195520, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643195656, "dur":47570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243227, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243398, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243569, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243650, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243787, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243863, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643243993, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643244071, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643244234, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643244318, "dur":48737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643293056, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643293200, "dur":50245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643343445, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643343578, "dur":77931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643421510, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643421602, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643421843, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643421929, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643422506, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643422613, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643422793, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643422876, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423008, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423087, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423247, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423335, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423484, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423573, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423704, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423776, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423912, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643423985, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424097, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424167, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424296, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424366, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424774, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424861, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643424984, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643425053, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643425334, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643425409, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643425527, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643425597, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643426518, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643426596, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643427050, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643427220, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643427350, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643427425, "dur":202017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643629448, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643629667, "dur":115997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643745665, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643745839, "dur":148353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643894193, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643894400, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643894562, "dur":12306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643906873, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643907130, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643907235, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1708476643907581, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643907668, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643908365, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643908458, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643908638, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643908922, "dur":4123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476643913046, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476643913139, "dur":581837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708476644494977, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708476644495226, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1708476644495228, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643083500, "dur":370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643083871, "dur":4197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643088072, "dur":23781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708476643111853, "dur":1476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643113331, "dur":86272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643199603, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643199720, "dur":43826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643243546, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643243649, "dur":34990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643278640, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643278785, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643279129, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643279225, "dur":89169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643368395, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643368527, "dur":53756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422283, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422370, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422516, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422615, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422780, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422851, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643422985, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423056, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423175, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423244, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423388, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423463, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423578, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423669, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423807, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643423889, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424021, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424098, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Services.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424259, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424333, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424454, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424529, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424655, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424729, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424849, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643424924, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643425028, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643425112, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643425585, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643425669, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426299, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426383, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426496, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426562, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426909, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643426984, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1708476643427090, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643427295, "dur":292319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476643719615, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476643719828, "dur":312528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708476644032357, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644032511, "dur":16348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/Input/BriefText.txt" }}
+,{ "pid":12345, "tid":5, "ts":1708476644048860, "dur":4099, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644052964, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1708476644053105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644053118, "dur":23602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1708476644076775, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644076840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644076947, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644080121, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644080169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644080178, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644081217, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1708476644081268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644081276, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1708476644083235, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644083289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644083298, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708476644084666, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1708476644084820, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644084920, "dur":11172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1708476644096092, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644096340, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1708476644096403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708476644096408, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1708476644097560, "dur":397793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643083686, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643083877, "dur":4197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643088076, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1708476643088361, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643088612, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1708476643088725, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643088798, "dur":20337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1708476643109135, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643109424, "dur":67070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0.exe" }}
+,{ "pid":12345, "tid":6, "ts":1708476643176495, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643176637, "dur":42894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643219533, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643219707, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643219989, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643220097, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643220297, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643220394, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643220757, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643220858, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643221080, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643221153, "dur":43749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643264903, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265078, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265265, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265344, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265458, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265528, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265645, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265716, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265837, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643265897, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266074, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266138, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266389, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266465, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266584, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266653, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266754, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266813, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643266928, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267056, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267153, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267212, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267340, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267407, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267534, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267597, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267712, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267774, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267885, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643267946, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268060, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268216, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268343, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268418, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268522, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268597, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268705, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268771, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643268976, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643269037, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643269248, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643269311, "dur":33295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643302606, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643302724, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643302891, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643302994, "dur":42331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643345326, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643345431, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643345585, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643345664, "dur":42203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643387868, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643388090, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643388491, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643388650, "dur":82584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643471235, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643471360, "dur":465257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643936618, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643936829, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643937157, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643937256, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643937675, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643937774, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643937977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643939377, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643941819, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643941970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643941978, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476643942948, "dur":20455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Plugins/x86_64/lib_burst_generated.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1708476643963404, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476643963570, "dur":66179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708476644029750, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644029892, "dur":9665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/StreamingAssets/Input/DebriefText.txt" }}
+,{ "pid":12345, "tid":6, "ts":1708476644039557, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644039668, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1708476644039731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644039786, "dur":8731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1708476644048574, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644048639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644048676, "dur":7243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644055977, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644056041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644056052, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644057142, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644057188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644057193, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644059938, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644059994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644060006, "dur":24997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644085056, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644085109, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644085120, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644086692, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644086747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644086756, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708476644087901, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1708476644087950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644087956, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1708476644088880, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1708476644088925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644088930, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1708476644089792, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1708476644089833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644089838, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1708476644091075, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1708476644091125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644091131, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1708476644091989, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644092035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644092040, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644093219, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1708476644093269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644093275, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095010, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095063, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095928, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708476644095983, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708476644098544, "dur":396807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643083856, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643083856, "dur":4190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643088047, "dur":16307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1708476643104356, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643104792, "dur":1524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643106317, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643106418, "dur":6519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1708476643112938, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643113011, "dur":81379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643194391, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643194557, "dur":42621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643237179, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643237310, "dur":30682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643267992, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643268123, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643268424, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643268518, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1708476643268664, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643268748, "dur":49129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643317879, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643318039, "dur":166516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643484556, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643484700, "dur":247000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476643731701, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476643731898, "dur":600935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708476644332834, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708476644333015, "dur":162309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643083892, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643083893, "dur":4147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643088043, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1708476643088405, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643088522, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1708476643088723, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643088986, "dur":16824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1708476643105811, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643105960, "dur":92720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643198681, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643198825, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643199006, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643199082, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643199204, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643199271, "dur":189597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643388869, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643389011, "dur":40999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643430010, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643430118, "dur":305086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643735204, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643735358, "dur":2432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476643737791, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476643737911, "dur":511633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mille/Desktop/PsychDev1/PsychMaze_V2.0_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708476644249546, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708476644249815, "dur":245466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708476644506563, "dur":4165, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1708476644550187, "dur": 1305, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1708476644548742, "dur": 2790, "ph": "X", "name": "Write chrome-trace events", "args": {} },

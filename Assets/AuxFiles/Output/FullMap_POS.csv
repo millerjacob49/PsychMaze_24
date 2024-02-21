@@ -284,3 +284,20 @@ Header
 1, experiment, 4000,0.5110974,2.724196
 1, experiment, 4500,0.5110974,2.724196
 1, experiment, 5000,0.5110974,2.724196
+Header 
+, Condition: ,FullMap
+,SubjectNumber: 
+,Time Started: 01-24_13-14-04
+***** 
+1, practice, 0,0,2.09
+1, practice, 500,0,2.09
+1, practice, 1000,0,2.09
+1, practice, 1500,0.8661394,3.009531
+1, practice, 2000,2.87394,3.009531
+1, practice, 2500,4.867548,3.009531
+1, practice, 3000,6.871423,3.009531
+1, practice, 3500,8.86247,3.009531
+1, practice, 4000,10.8744,3.009531
+1, practice, 4500,12.86512,3.009531
+1, practice, 5000,14.8735,3.009531
+1, experiment, 0,14.89538,3.009531

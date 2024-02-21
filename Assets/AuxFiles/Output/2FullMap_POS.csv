@@ -15,3 +15,9 @@ Header
 1, experiment, 4000,0.2722119,3.150298
 1, experiment, 4500,0.2722119,4.204475
 1, experiment, 5000,0.2722119,5.465594
+Header 
+, Condition: ,FullMap
+,SubjectNumber: 2
+,Time Started: 01-22_15-13-52
+***** 
+1, experiment, 0,0,2.09
